@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/video_play_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.ktc.media.media.business.video.VideoPlayView
+        android:id="@+id/video_play_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" />
+
+    <com.ktc.media.media.view.MediaControllerView
+        android:id="@+id/video_play_controller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:isPicture="false"
+        app:needTop="true" />
+
+    <com.ktc.media.media.view.BorderTextViews
+        android:id="@+id/firstBorderTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:padding="3dip"
+        android:paddingStart="2dp"
+        android:paddingEnd="2dp"
+        android:textColor="@android:color/white"
+        android:textSize="35sp" />
+
+    <SurfaceView
+        android:id="@+id/videoPlayerImageSurfaceView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:translationZ="-1dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent" />
+
+</RelativeLayout>

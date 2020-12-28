@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- for music  -->
+    <string-array name="audio_filter">
+        <item>.mp3</item>
+        <item>.wma</item>
+        <item>.aac</item>
+        <item>.ogg</item>
+        <item>.pcm</item>
+        <item>.m4a</item>
+        <item>.ac3</item>
+        <item>.ec3</item>
+        <item>.dtshd</item>
+        <item>.ra</item>
+        <item>.wav</item>
+        <item>.cd</item>
+        <item>.amr</item>
+        <item>.mp2</item>
+        <item>.ape</item>
+        <item>.dts</item>
+        <item>.flac</item>
+        <item>.midi</item>
+        <item>.mid</item>
+    </string-array>
+
+    <!-- for video -->
+    <string-array name="video_filter">
+        <item>.avi</item>
+        <item>.asf</item>
+        <item>.wmv</item>
+        <item>.m2t</item>
+        <item>.mts</item>
+        <item>.ts</item>
+        <item>.mpg</item>
+        <item>.m2p</item>
+        <item>.mp4</item>
+        <item>.flv</item>
+        <item>.swf</item>
+        <item>.vob</item>
+        <item>.mkv</item>
+        <item>.divx</item>
+        <item>.xvid</item>
+        <item>.mov</item>
+        <item>.rmvb</item>
+        <item>.rv</item>
+        <item>.3gp</item>
+        <item>.3g2</item>
+        <item>.pmp</item>
+        <item>.tp</item>
+        <item>.trp</item>
+        <item>.rm</item>
+        <item>.webm</item>
+        <item>.m2ts</item>
+        <item>.ssif</item>
+        <item>.mpeg</item>
+        <item>.mpe</item>
+        <item>.m3u8</item>
+        <item>.iso</item>
+        <item>.bdmv</item>
+        <item>.m4v</item>
+        <item>.m2v</item>
+        <item>.mka</item>
+    </string-array>
+
+    <!-- for picture -->
+    <string-array name="picture_filter">
+        <item>.jpg</item>
+        <item>.jpeg</item>
+        <item>.png</item>
+        <item>.bmp</item>
+        <item>.gif</item>
+        <item>.tiff</item>
+        <item>.tga</item>
+        <item>.exif</item>
+        <item>.fpx</item>
+        <item>.svg</item>
+        <item>.psd</item>
+        <item>.cdr</item>
+        <item>.pcd</item>
+        <item>.dxf</item>
+        <item>.ufo</item>
+        <item>.eps</item>
+        <item>.raw</item>
+        <item>.mpo</item>
+    </string-array>
+
+    <!-- for zip压缩包 -->
+    <array name="package_filter">
+        <item>.jar</item>
+        <item>.zip</item>
+        <item>.rar</item>
+        <item>.gz</item>
+    </array>
+
+    <!-- for 文本 -->
+    <array name="file_filter">
+        <!-- for html -->
+        <item>.htm</item>
+        <item>.html</item>
+        <item>.php</item>
+        <item>.css</item>
+        <item>.xml</item>
+        <item>.js</item>
+        <!-- for subtitle -->
+        <item>.txt</item>
+        <item>.srt</item>
+        <item>.ass</item>
+        <item>.ssa</item>
+        <item>.idx</item>
+        <item>.sub</item>
+        <item>.sup</item>
+        <item>.smi</item>
+        <item>.ttxt</item>
+        <!-- 歌词 -->
+        <item>.lrc</item>
+    </array>
+
+    <array name="txt_filter">
+        <item>.txt</item>
+    </array>
+
+    <!-- for apk -->
+    <array name="apk_filter">
+        <item>.apk</item>
+    </array>
+
+    <array name="doc_filter">
+        <item>.doc</item>
+        <item>.docx</item>
+    </array>
+
+    <array name="ppt_filter">
+        <item>.ppt</item>
+        <item>.pptx</item>
+    </array>
+
+    <array name="xls_filter">
+        <item>.xls</item>
+        <item>.xlsx</item>
+    </array>
+
+    <array name="pdf_filter">
+        <item>.pdf</item>
+    </array>
+
+    <string-array name="video_menu_list">
+        <item>@string/str_video_info</item>
+        <item>@string/str_picture_ratio</item>
+        <item>@string/str_picture_mode</item>
+        <item>@string/str_sound_mode</item>
+        <item>@string/str_advanced_setting</item>
+        <item>@string/str_audio_track</item>
+        <item>@string/str_subtitle</item>
+        <item>@string/str_loop_mode</item>
+    </string-array>
+
+    <string-array name="video_menu_zoom_list">
+        <item>16:9</item>
+        <item>4:3</item>
+    </string-array>
+
+    <string-array name="video_menu_picture_list">
+        <item>@string/str_standard</item>
+        <item>@string/str_soft</item>
+        <item>@string/str_user</item>
+        <item>@string/str_bright</item>
+    </string-array>
+
+    <string-array name="video_menu_sound_list">
+        <item>@string/str_standard</item>
+        <item>@string/str_music</item>
+        <item>@string/str_film</item>
+        <item>@string/str_user</item>
+    </string-array>
+
+    <string-array name="video_menu_repeat_list">
+        <item>@string/str_list_play</item>
+        <item>@string/str_shuffle_play</item>
+        <item>@string/str_single</item>
+        <item>@string/str_list_repeat</item>
+    </string-array>
+
+    <string-array name="music_menu_list">
+        <item>@string/str_music_info</item>
+        <item>@string/str_sound_mode</item>
+        <item>@string/str_advanced_setting</item>
+        <item>@string/str_loop_mode</item>
+    </string-array>
+
+    <string-array name="music_menu_sound_list">
+        <item>@string/str_standard</item>
+        <item>@string/str_music</item>
+        <item>@string/str_film</item>
+        <item>@string/str_user</item>
+    </string-array>
+
+    <string-array name="menu_setting_list">
+        <item>@string/str_sound_mode</item>
+        <item>@string/str_picture_mode</item>
+    </string-array>
+
+    <string-array name="music_menu_repeat_list">
+        <item>@string/str_list_play</item>
+        <item>@string/str_shuffle_play</item>
+        <item>@string/str_single</item>
+        <item>@string/str_list_repeat</item>
+    </string-array>
+
+    <string-array name="picture_menu_list">
+        <item>@string/str_picture_info</item>
+        <item>@string/str_picture_mode</item>
+        <item>@string/str_advanced_setting</item>
+        <item>@string/str_interval_time</item>
+        <item>@string/str_loop_mode</item>
+    </string-array>
+
+    <string-array name="picture_menu_mode_list">
+        <item>@string/str_standard</item>
+        <item>@string/str_soft</item>
+        <item>@string/str_user</item>
+        <item>@string/str_bright</item>
+    </string-array>
+
+    <string-array name="picture_menu_ppt_duration_list">
+        <item>@string/str_three_second</item>
+        <item>@string/str_five_second</item>
+        <item>@string/str_ten_second</item>
+        <item>@string/str_fifteen_second</item>
+        <item>@string/str_thirty_second</item>
+    </string-array>
+
+    <string-array name="picture_menu_repeat_list">
+        <item>@string/str_list_play</item>
+        <item>@string/str_single</item>
+        <item>@string/str_list_repeat</item>
+    </string-array>
+
+</resources>

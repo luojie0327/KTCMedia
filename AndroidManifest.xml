@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ktc.media"
+    android:sharedUserId="android.uid.system">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
+
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/app"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/app"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme"
+        android:windowSoftInputMode="adjustNothing|stateHidden">
+
+		<meta-data
+            android:name="KtcProductFlag"
+            android:value="ktc.flag.keep.alive" />
+
+        <meta-data
+            android:name="KTCProductNumber"
+            android:value="2001" />
+
+
+        <uses-library android:name="com.mstar.android" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+			
+			<intent-filter>
+                <action android:name="android.intent.action.KTC_MEDIA" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".scan.ScanService"
+            android:exported="false"
+            android:process="com.ktc.media.scan" />
+
+        <service
+            android:name=".scan.FileScanUpdateService"
+            android:exported="false"
+            android:process="com.ktc.media.scan" />
+
+        <receiver
+            android:name=".scan.DiskReceiver"
+            android:enabled="true"
+            android:process="com.ktc.media.scan">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED" />
+                <action android:name="android.intent.action.MEDIA_EJECT" />
+
+                <data android:scheme="file" />
+            </intent-filter>
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".activity.VideoListActivity"
+            android:windowSoftInputMode="adjustNothing|stateHidden"/>
+        <activity
+            android:name=".activity.MusicListActivity"
+            android:windowSoftInputMode="adjustNothing|stateHidden"/>
+        <activity
+            android:name=".activity.PictureListActivity"
+            android:windowSoftInputMode="adjustNothing|stateHidden"/>
+        <activity
+            android:name=".activity.FileListActivity"
+            android:windowSoftInputMode="adjustNothing|stateHidden"/>
+
+        <!-- Music broadcast module -->
+        <activity
+            android:name=".media.music.MusicPlayerActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="file" />
+                <data android:mimeType="audio/*" />
+
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="audio/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".media.photo.ImagePlayerActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="file" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".media.video.VideoPlayerActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="video/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="file" />
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:mimeType="video/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.mstar.android.intent.action.START_LOCAL_MEDIA" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:scheme="file" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".media.music.MediaService"
+            android:enabled="true" />
+
+        <service android:name=".media.video.LocalMediaService">
+            <intent-filter>
+                <action android:name="com.mstar.android.intent.action.START_MEDIA_BROWSER" />
+
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:scheme="file" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.mstar.android.intent.action.START_LOCAL_MEDIA_SERVICE" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.ktc.media.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

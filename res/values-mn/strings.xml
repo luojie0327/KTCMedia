@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+<string name="video_media_error_license_expired">Итгэмжлэгдсэн зөвшөөрлийн хугацаа дууссан</string>
+<string name="music_default_time">0:00:00</string>
+<string name="picture_info_format">Формат:</string>
+<string name="video_media_play_next">Дараагийн бичлэгийг тоглуулах уу?</string>
+<string name="exit_ok">За</string>
+<string name="photo_rotating">Дүрсийг эргүүлж байна</string>
+<string name="str_keyboard_num_2">2</string>
+<string name="buffering">Энэ бичлэг ачааллаж байна...</string>
+<string name="choose_time_failed">Энэ бичлэгийг зөв байрлуулахад алдаа гарлаа!</string>
+<string name="str_keyboard_num_1">1</string>
+<string name="str_keyboard_num_0">0</string>
+<string name="str_disk_last_memory">Үлдэгдэл багтаамж</string>
+<string name="play_setting_0_value_2">Унтраах</string>
+<string name="picture_can_not_decode">Энэ зургийг нээх боломжгүй байна</string>
+<string name="music_info_artist">Дуучин:</string>
+<string name="file_create_time">Үүсгэсэн огноо:</string>
+<string name="str_keyboard_num_tuv">TUV</string>
+<string name="exit_cancel">Цуцлах</string>
+<string name="str_keyboard_num_9">9</string>
+<string name="str_keyboard_num_8">8</string>
+<string name="str_keyboard_num_7">7</string>
+<string name="str_keyboard_num_6">6</string>
+<string name="video_subtitle_external">Нэмэлт</string>
+<string name="str_keyboard_num_5">5</string>
+<string name="video_media_error_io">IO унших/бичих алдаа</string>
+<string name="photo_media_play_next">Дараагийн зураг гаргах уу?</string>
+<string name="max_tip">Ойртуулах дээд хязгаар</string>
+<string name="str_universal_storage_default">Зөөврийн диск </string>
+<string name="str_keyboard_num_4">4</string>
+<string name="str_keyboard_num_3">3</string>
+<string name="video_media_error_not_valid">Энэ өргөтгөл нь таних боломжгүй байна</string>
+<string name="video_media_info_video_decoder_over_capability">PIP горим дээр 4К болон 2К дэмжихгүй</string>
+<string name="can_not_decode">Нээхэд хэт том хэмжээтэй зураг байна!</string>
+<string name="video_info_size">Хэмжээ:</string>
+<string name="str_keyboard_num_def">DEF</string>
+<string name="current_pic">Одооны зураг:</string>
+<string name="str_universal_storage_internal">Дотоод багтаамж</string>
+<string name="photo_info">Зургын мэдэгдэл</string>
+<string name="picture_info_name">Нэр:</string>
+<string name="str_picture_list_count">Нийт % d зургууд</string>
+<string name="video_media_error_unsupported">Танигдахгүй алдаа байна.</string>
+<string name="busy_tip">Боловсруулж байна, дараа дахин оролдоно уу!</string>
+<string name="video_info_duration">Үргэлжлэх хугацаа</string>
+<string name="str_picture_title">ЗУРАГ</string>
+<string name="picture_decoding">Зургийг задлаж байна</string>
+<string name="can_not_decode_previous">Зургийн хэмжээ хэт том байна. </string>
+<string name="exit_confirm">Энэ нэвтрүүлгийг жагсаалтаас хасах уу?</string>
+<string name="total_duration">Үргэлжлэх хугацаа</string>
+<string name="show_info">Ухраахад алдаа гарлаа</string>
+<string name="photo_pan_parameter_invalid">Дүрсний харьцаа буруу байна!</string>
+<string name="video_size_unknown">Мэдэгдэхгүй</string>
+<string name="min_tip">Ойртуулалтыг багасгах</string>
+<string name="singer">Дуучин:</string>
+<string name="video_media_error_no_license">Тоглуулж буй медиа зөвшөөрөгдөөгүй байна</string>
+<string name="str_keyboard_num_pqrs">PQRS</string>
+<string name="first_photo">Эхний зураг</string>
+<string name="file_not_support">Дэмжигдээгүй формат</string>
+<string name="unknown">Мэдэгдэхгүй</string>
+<string name="str_music_list_count">Нийт % d дуу</string>
+<string name="video_subtitle_close">Хаах</string>
+<string name="display_img_name">Зургийн нэр харуулсан</string>
+<string name="str_empty_no_data">Мэдээлэл байхгүй </string>
+<string name="photo_GIF_toast">Энэ үйлдлийг GIF анимейшн горимын дагуу хийх боломжгүй</string>
+<string name="music_media_play_next">Дараагийн дуу руу шилжих</string>
+<string name="video_media_error_server_died">Медиа тоглуулагчийн үйлчлүүлэгч дээр гацаж байна</string>
+<string name="music_info_duration">Үргэлжлэх хугацаа</string>
+<string name="current_time">Одооны цаг</string>
+<string name="photo_pan_failed_toast">Зургийг эргүүлж чадсангүй!</string>
+<string name="str_video_list_count">Нийт % d видео</string>
+<string name="video_breakpoint_play">Сүүлд зогсоосон хэсэгээс тоглуулах уу?</string>
+<string name="photo_not_support_scale">Энэ платформ дээр томруулахын тулд санах ой бага байна!</string>
+<string name="album_text">Цомог:</string>
+<string name="file_size">Файлын хэмжээ</string>
+<string name="confirm">За</string>
+<string name="video_media_infor_no_index">Ямар ч видео индекс байхгүй тул арагшаа эсвэл хурдан эхлэлийг байрлуулах боломжгүй байна</string>
+<string name="app_name">Мультимедиа</string>
+<string name="str_video_title">Видео</string>
+<string name="video_media_error_format_unsupport">Дэмжигдээгүй формат</string>
+<string name="str_keyboard_num_mno">MNO:</string>
+<string name="music_info_name">Нэр:</string>
+<string name="photo_scale_or_rotate_toast">Томруулах / эргүүлэх горимд 3D горим тохируулагдаагүй байна</string>
+<string name="choice">Сонгох</string>
+<string name="video_media_error_video_unsupport">Танихгүй формат</string>
+<string name="file_path">Файлын хаяг:</string>
+<string name="video_info_video_codec">Видео</string>
+<string name="not_supported_3D_this_platform">Энэ платформ нь 3D-ийг дэмждэггүй</string>
+<string name="str_disk_list">Дискийн жагсаалт</string>
+<string name="video_info_name">Нэр:</string>
+<string name="picture_info_size">Хэмжээ:</string>
+<string name="last_photo">Сүүлчийн зураг</string>
+<string name="Artist_name">Дуучны нэр</string>
+<string name="str_keyboard_num_wzyx">WZYX</string>
+<string name="str_file_list_count">Нийт% d объект</string>
+<string name="video_info_audio_codec">Аудио:</string>
+<string name="video_media_error_malformed">Бусад үл мэдэх алдаа</string>
+<string name="photo_3D_toast">Энэ үйлдлийг 3D горимын үед ашиглах боломжгүй</string>
+<string name="video_media_error_unknown">Үл мэдэх алдаа</string>
+<string name="exit_title">Анхаар</string>
+<string name="video_media_other_error_unknown">Бусад үл мэдэх алдаа</string>
+<string name="photo_set_wallpaper">Дэлгэцийн арын тохиргоо</string>
+<string name="str_music_title">Music </string>
+<string name="str_menu_title">Тохиргоо</string>
+<string name="disk_eject">Диск салсан байна</string>
+<string name="picture_playing_time">Слайд тоглох завсарлага</string>
+<string name="music_info_codec">Аудио:</string>
+<string name="video_no_support_two_4k">Хоёр 4k видеог нэгэн зэрэг тоглуулахыг дэмждэггүй.</string>
+<string name="video_media_error_audio_unsupport">Дэмжигдээгүй аудио формат</string> 
+<string name="str_keyboard_num_ghi">GHI</string>
+<string name="music_info_format">Формат:</string>
+<string name="photo_zooming">Зургийг ойртуулсан байна...</string>
+<string name="video_sub_no_support_fullscreen_in_4K2K">Дэлгэцийн үзүүлэлт дэмжихгүй байна</string>
+<string name="video_info_format">Формат:</string>
+<string name="video_display_previous_video_last_frame">Видеонд дүрс байхгүй байгаа тул өмнөх видеоны сүүлийн кадарыг тоглуулж байна. </string>
+<string name="str_keyboard_num_abc">ABC</string>
+<string name="picture_decode_failed">Зураг  задлахад алдаа гарлаа</string>
+<string name="str_keyboard_t9">T9 үсгийн дараалал</string>
+<string name="video_media_error_not_connected">Дата холболтын алдаа</string> 
+<string name="open_file_fail">Уг файлыг нээх боломжгүй байна </string>
+<string name="str_keyboard_num_jkl">JKL</string>
+<string name="alert">Сануулга</string>
+<string name="file_duration">Дууны үргэлжлэх хугацаа</string>
+<string name="picture_info_time">Цаг:</string>
+<string name="video_iso_tip">Танихгүй ISO файл</string>
+<string name="file_format">Файлын формат</string>
+<string name="file_name">Файлын нэр</string>
+<string name="picture_can_not_set3d">3 хэмжээст зураг</string>
+<string name="video_subtitle_inner">Дотоод</string>
+<string name="exit_music_play">Хөгжим тоглуулагчийг гаргах уу?</string>
+<string name="picture_animation_setting">Анимаци эффект</string>
+<string name="none_lyrics_find">Үг олоход алдаа гарлаа</string>
+<string name="can_not_decode_next">Дараах зурагийг задалхад алдаа гарлаа</string>
+<string name="str_keyboard_system">Системийн товчлуурын гар</string>
+<string name="photo_out_of_memory_toast">Санах ой хангалттгүй байна. </string>
+<string name="photo_pan_success_toast">Зургийг амжилттай дамжуулсан</string>  
+<string name="str_video_info">Бичлэгийн мэдээлэл </string>
+<string name="str_picture_ratio">Зургийн харьцаа</string>
+<string name="str_picture_mode">Зургийн Горим</string>
+<string name="str_sound_mode">Дууны Горим</string>
+<string name="str_advanced_setting">Нэмэлт тохиргоо</string>
+<string name="str_audio_track">Аудио зам</string>  
+<string name="video_subtitle_inner_title">Хадмал орчуулга</string>  
+<string name="str_loop_mode">Давталтын горим</string>  
+<string name="str_film">Кино</string>
+<string name="str_subtitle">Хадмал орчуулга</string>
+<string name="str_standard">Стандарт</string>
+<string name="str_soft">Зөөлөн</string>
+<string name="str_user">Хэрэглэгч</string>
+<string name="str_bright">Тодрол</string>
+<string name="str_music">Хөгжим</string>
+<string name="str_list_play">Дууг холих</string>
+<string name="str_shuffle_play">Shuffle playback</string>
+<string name="str_single">Ганц</string>
+<string name="str_list_repeat">Давтах жагсаалт</string>
+<string name="str_music_info">Дууны мэдээлэл </string>  
+<string name="str_picture_info">Зургийн мэдээлэл</string>
+<string name="str_interval_time">Слайд тоглох завсарлага</string>
+<string name="str_three_second">3S</string>
+<string name="str_five_second">5S</string>
+<string name="str_ten_second">10S</string>
+<string name="str_fifteen_second">15S</string>
+<string name="str_thirty_second">30S</string>
+</resources>  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
